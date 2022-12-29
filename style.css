@@ -1,0 +1,51 @@
+main {
+  width: 50%;
+  border: 10px solid black;
+  margin: auto 25%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#value {
+  font-size: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn-container {
+  text-align: center;
+  margin: auto 25%;
+}
+.btn {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+
+.decrease {
+  background-color: red;
+}
+.decrease:hover {
+  color: red;
+  background: white;
+}
+.reset {
+  background-color: white;
+  color: black;
+}
+.reset:hover {
+  color: white;
+  background-color: black;
+}
+.increase {
+  background-color: green;
+}
+.increase:hover {
+  color: green;
+  background: white;
+}
